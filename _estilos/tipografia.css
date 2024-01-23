@@ -84,7 +84,7 @@ div.pontos-chaves h4 {
     color: #404040;
 }
 
-div.pontos-chaves h4::after{
+div.pontos-chaves h4::after {
     display: block;
     background-color:#078c31;
     height: 5px;
@@ -92,3 +92,24 @@ div.pontos-chaves h4::after{
     margin: 20px auto 10px;
     content: "";
 }
+/* --------------------*/
+/*    SEÇÂO PIZZA     */
+/* ------------------*/
+
+section.pizza p.destaque {
+    color: #fff;
+    width: 40%;
+}
+
+section.pizza ul li, section.pizza ul li a {
+    color: white;
+    list-style: none;
+    line-height: 1.9;
+    font-size: 90%;
+    text-transform: uppercase;
+    text-decoration: none;      
+}
+
+
+
+
