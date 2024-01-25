@@ -329,7 +329,7 @@ div.transicao-testemunha-plano {
     width: 100%;
     height: 280px;
     display: flex;
-  /* forma curta de se colocar o flex-direction e também o flex-wrap */
+    /* forma curta de se colocar o flex-direction e também o flex-wrap */
     flex-flow: row wrap;
     justify-content: space-between;
 }
@@ -342,5 +342,62 @@ div.transicao-testemunha-plano div.decoracao1 {
 }
 
 
+div.transicao-testemunha-plano div.decoracao2 {
+    width: 30%;
+    height: 100%;
+    background-image: url(../_imagens/secao13-azeite.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
 
 
+div.transicao-testemunha-plano div.decoracao3 {
+    width: 30%;
+    height: 100%;
+    background-image: url(../_imagens/secao13-detalhe-tomate.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+/* ------------------------- */
+/*       SECAO - PLANOS     */
+/* ----------------------- */
+
+section.plano-principal {
+    width: 100%;
+    height: 800px;
+}
+
+div.planos-janela {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+div.planos {
+    width: 250px;
+    height: 450px;
+    margin: 80px;
+}
+
+div.planos-top {
+    width: 100%;
+    height: 350px;
+    background-color: #f7f7f7f7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+div.planos-bottom {
+    width: 100%;
+    height: 100px;
+    background-color: #078C31;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 2px 2px 3px #ccc;
+    cursor: pointer;
+}

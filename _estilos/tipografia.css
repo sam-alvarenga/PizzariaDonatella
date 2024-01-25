@@ -78,7 +78,9 @@ header div.chamada a {
     background: linear-gradient(rgba(7, 140, 49, 55) 0%, rgba(6, 89, 2, 35) 50%, rgba(6, 89, 2, 35) 100%);
 }
 
-/* SEÇÃO DOMINGO PERFEITO */
+/* ------------------------------- */
+/*     SEÇÃO DOMINGO PERFEITO     */
+/* ----------------------------- */
 
 div.pontos-chaves h4 {
     color: #404040;
@@ -86,14 +88,15 @@ div.pontos-chaves h4 {
 
 div.pontos-chaves h4::after {
     display: block;
-    background-color:#078c31;
+    background-color: #078c31;
     height: 5px;
     width: 30%;
     margin: 20px auto 10px;
     content: "";
 }
+
 /* --------------------*/
-/*    SEÇÂO PIZZA     */
+/*    SECAO PIZZA     */
 /* ------------------*/
 
 section.pizza p.destaque {
@@ -107,16 +110,57 @@ section.pizza ul li, section.pizza ul li a {
     line-height: 1.9;
     font-size: 90%;
     text-transform: uppercase;
-    text-decoration: none;      
+    text-decoration: none;
 }
+
 /* ----------------------------- */
-/*      SEÇÃO - DEPOIMENTOS      */
+/*      SECAO - DEPOIMENTOS      */
 /* ---------------------------  */
 
 section.testemunha p.destaque {
     width: 40%;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
+/* --------------------------- */
+/*       SECAO - PLANOS       */
+/*-------------------------- */
 
+section.plano-principal h4 {
+    color: #D90404;
+}
 
+section.plano-principal ul {
+    margin-top: 25px;
+}
+
+section.plano-principal ul li {
+    font-size: 85%;
+    text-align: left;
+    margin-left: 30px;
+    line-height: 2;
+    text-decoration: none;
+    list-style: none;
+}
+
+section.plano-principal div.planos-bottom p {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 35px;
+}
+
+/* ------------------------------ */
+
+/*             FOOTER             */
+
+/*------------------------------- */
+
+div.transicao-plano-rodape {
+    width: 100%;
+    height: 36px;
+    background-image: linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5)), url(../_imagens/secao15-mesa-xadrez-clara.png);
+    background-repeat: repeat-x;
+    margin-top: 100px;
+}
